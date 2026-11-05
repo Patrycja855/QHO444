@@ -1,0 +1,12 @@
+print("What is your name?")
+name=input()
+print(f"Nice to meet you {name}!\nHow old are you (in years)")
+age=int(input())
+print("How tall are you (in meters)?")
+height=float(input())
+print("How much do you weigh (in kilograms)?")
+weight=float(input())
+bmi=weight/(height*height)
+bmi_rounded = format(bmi, ".2f")
+print(f"{name} you are {age} old and your BMI is {bmi_rounded}")
+
